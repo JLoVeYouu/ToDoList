@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Khojki&family=Oswald:wght@200..700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    scroll-behavior: smooth;
+    --section__title-h1-color: #ffe3e3;
+    --main__form-input-focus-visible: #f9c4c4;
+    --main__todo-container-lists: #ffffff;
+    --div-for-img-check: #8aa97ab0;
+    --div-for-img-check-hover: #3f7331b0;
+    --main__todo-container-lists-checked: #f5b9b9a6;
+    --div-for-img-bin: #cb4343bd;
+    --main__form-btn-hover: #f9c4c4;
+    --div__clear-todo-list: #ffe3e3;
+    --clear-todo-list-background-color: #ffffff;
+    --loadBtn-background-color: #ffffff;
+    --saveBtn-background-color: #ffffff;
+    --localStorageClear-background-color: #ffffff;
+    --clear-todo-list-border: #000000;
+    --loadBtn-border: #000000;
+    --saveBtn-border: #000000;
+    --localStorageClear-border: #000000;
+    --clear-todo-list-color: #0c0c0c;
+    --loadBtn-color: #0c0c0c;
+    --saveBtn-color: #0c0c0c;
+    --localStorageClear-color: #0c0c0c;
+    --clear-todo-list-hover: #f9c4c4;
+    --loadBtn-hover: #f9c4c4;
+    --saveBtn-hover: #f9c4c4;
+    --localStorageClear-hover: #f9c4c4;
+    --div-for-img-bin-hover: #a51c1cbd;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TO-DO-LIST</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <header class="header">
+    <section class="section__title">
+      <h1 class="section__title-h1">Create your TO-DO-LIST</h1>
+    </section>
+  </header>
+  <main class="main">
+    <form id="main__form">
+      <div class="main-block-for-btn-and-input">
+        <input name="input" class="main__form-input" type="text" placeholder="Enter your work">
+        <button class="main__form-btn" type="submit">
+          <div class="form-btn-block-with-img">
+            <img class="btn-block-with-img" src="img/plus.png" alt="Plus">
+          </div>
+        </button>
+      </div>
+      <div class="select">
+        <select name="todos" class="filter_todo">
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="uncompleted">Uncompleted</option>
+        </select>
+    </div>
+    </form>
+    <section class="section__for-btns">
+        <button class="clear-todo-list">
+          <div class="clear-todo-list-text">Clear</div>
+        </button>
+        <button id="saveBtn">
+          <div class="saveBtn-text">Save</div>
+        </button>
+        <button id="loadBtn">
+          <div class="loadBtn-text">Load</div>
+        </button>
+        <button id="localStorageClear">
+          <div class="localStorageClear-text">Clear saved</div>
+        </button>
+
+    </section>
+    
+    <div class="main__todo-container">
+      
+    </div>
+    
+  </main>
+  <footer></footer>
+  <script src="index.js"></script>
+</body>
+</html>
